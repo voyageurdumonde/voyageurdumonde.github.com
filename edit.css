@@ -1,0 +1,392 @@
+ /* POUR INDEX */
+.text h1{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-top: 250px;
+margin-bottom: 40px;
+letter-spacing: 20px;
+font-weight: 800;
+color: whitesmoke;
+}
+h1 {
+
+    animation: colors 5s ease-in-out infinite;
+  
+  }
+  
+  @keyframes colors {
+  
+    0% {color: rgb(14, 141, 141);} 
+  
+    40% {color: whitesmoke;}
+  
+    75% {color: rgb(29, 206, 229);}
+  
+    100% {color: rgb(68, 176, 243);}
+  
+  }
+.text h1 {
+    Animation-name : fade ;
+    Animation-delay : 2s;
+  Animation-duration : 3s;
+  Animation-iteration-count: 1;
+   }
+   @keyframes fade{
+  from {opacity: 0;}
+  to {opacity: 1; }  
+  }
+.phr h1{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-bottom: 80px;
+color: whitesmoke;
+}
+.phr h1{
+    border-right: solid 3px rgba(0,255,0,.75);
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    margin-left: 250px;
+  }
+  
+  /* Animation */
+  .phr h1{
+    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+               animated-cursor 600ms steps(29,end) infinite;
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 680px;}
+  }
+  
+  /* cursor animations */
+  
+  @keyframes animated-cursor{
+    from{border-right-color: midnightblue;}
+    to{border-right-color: transparent;}
+  }
+.A{
+  background-image: url(https://i.pinimg.com/564x/18/eb/46/18eb46819fcaf0fcf29a5f40eab9d73d.jpg) ;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+.z{
+    border-radius: 100px;
+    text-align:center ;
+}
+
+.z button{
+    background-color:whitesmoke;
+    padding: 20px;
+    margin:10px ;
+    color: rgba(7, 129, 230, 0.929);
+    border-radius: 30px;
+    font-size: x-large;
+    border-color:rgba(5, 103, 184, 0.936) ;
+}
+.z button:hover{
+background-color:rgba(112, 184, 243, 0.674);
+color: whitesmoke;
+}
+.mes h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;  
+    color: whitesmoke;
+}
+ /*FIN INDEX */
+
+ /*DEBUT NEW-YORK */
+ .z1{
+    /* width: 100px;
+    height: 100px; */
+    border-radius: 100px;
+    text-align: center;
+    
+}
+.z1 button{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: rgba(216, 211, 211, 0.769);
+    padding: 50px;
+    border-radius: 500px;
+    margin-bottom: 200px;
+    font-size: xx-large;
+}
+.z1 button:hover{
+background-color: rgba(202, 197, 197, 0.858);
+color: rgba(0, 0, 0, 0.808);
+}
+#z1{
+    background-image: url(https://i.pinimg.com/564x/01/5e/1d/015e1d9a652185aca8c7646c78900af2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.il{
+    margin-bottom: -150px;
+}
+.il img{
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin: 50px;
+    margin-right: 10px;
+    }
+.il img:hover{
+        transform: scale(1.2);
+    }            
+.il p{
+    font-size: 25px;
+    padding-left: 200px;
+    width: 70%;
+    position: relative;
+    bottom:  250px;
+    left: 50px;
+    margin-top: 5px;
+    }
+.ol img{
+        height: 300px;
+        border-radius: 15px;
+        margin-top: 0px;
+        margin-right: 10px;
+        margin: 50px;
+        bottom: 200px;
+        }
+.ol img:hover{
+    transform: scale(1.2);
+    }        
+.ol p{
+        font-size: 25px;
+        padding-left: 200px;
+        width: 70%;
+        position: relative;
+        bottom:  100px;
+        left: 50px;
+        margin-top: -250px;
+        }
+        
+   .ol{
+    margin-bottom: -25px;
+   } 
+   
+/*FIN NEW-YORK */
+
+/*DEBUT LAPONIE*/
+.C{
+    background-image: url(https://i.pinimg.com/564x/4f/f3/4a/4ff34ad6940f01c610a63042854eddf6.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+#ld{
+    margin-bottom: -150px;
+}
+#ld img{
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin: 50px;
+    margin-right: 10px;
+    }
+#ld img:hover{
+    transform: scale(1.2);
+    }
+#ld p{
+    font-size: 25px;
+    padding-left: 200px;
+    width: 70%;
+    position: relative;
+    bottom:  250px;
+    left: 50px;
+    margin-top: -60px;
+}
+#od img{
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin: 50px;
+    bottom: 200px;
+    }
+#od img:hover{
+    transform: scale(1.2);
+    }            
+#od p{
+    font-size: 25px;
+    padding-left: 200px;
+    width: 70%;
+    position: relative;
+    bottom:  100px;
+    left: 70px;
+    margin-top: -250px;
+    }
+.zlap{
+    border-radius: 100px;
+    text-align: center; 
+}
+.zlap button{
+    background-color:rgb(69, 157, 154);
+    color:rgb(118, 243, 199) ;                                                  
+    padding: 50px;
+    border-radius: 500px;
+    margin-bottom: 200px;
+    font-size: xx-large;
+}
+.zlap button:hover{
+    background-color: rgb(167, 236, 213) ;
+    color:rgb(18, 49, 38) ;
+    }
+/*FIN LAPONIE*/
+
+/*DEBUT MARRAKECH*/
+.q{
+    background-image: url(https://i.pinimg.com/564x/db/82/46/db8246dcecd2b0e63cca1f805f2b2907.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;   
+}
+.q1{
+    margin-bottom: -150px; 
+}
+.q1 img{
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin: 50px;
+    margin-right: 10px;
+    }
+.q1 img:hover{
+    transform: scale(1.2);
+    }   
+.q1 p{
+    font-size: 25px;
+    padding-left: 200px;
+    width: 70%;
+    position: relative;
+    bottom:  250px;
+    left: 70px;
+    margin-top: -120px;
+    }
+.q2 img{
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin: 50px;
+    bottom: 200px;
+    }            
+.q2 img:hover{
+    transform: scale(1.2);
+    }   
+.q2 p{
+    font-size: 25px;
+    padding-left: 200px;
+    width: 70%;
+    position: relative;
+    bottom:  100px;
+    left: 70px;
+    margin-top: -280px;
+    }  
+.z5{
+    border-radius: 100px;
+    text-align: center;   
+}
+ .z5 button{
+    background-color:rgb(218, 172, 112);
+    color:bisque ;                                                  
+    padding: 50px;
+    border-radius: 500px;
+    margin-bottom: 200px;
+    font-size: xx-large;
+    }
+.z5 button:hover{
+    background-color:bisque ;
+    color:rgb(128, 100, 63) ;
+    }
+
+/*FIN MARRAKECH*/
+
+/*DEBUT TOKYO*/
+.E{
+    background-image: url(https://i.pinimg.com/564x/00/0d/00/000d002fe3e5d8e65e37806b6d524c96.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.E1{
+    margin-bottom: -50px; 
+}
+.E1 img{
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin: 50px;
+    margin-right: 10px;
+    }
+.E1 img:hover{
+    transform: scale(1.2);
+    }
+.E1 p{
+    font-size: 25px;
+    padding-left: 200px;
+    width: 70%;
+    position: relative;
+    bottom:  250px;
+    left: 70px;
+    margin-top:10px;
+    }
+.E2 img{
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin: 50px;
+    bottom: 200px;
+ }    
+.E2 img:hover{
+    transform: scale(1.2);
+}   
+.E2 p{
+    font-size: 25px;
+    padding-left: 200px;
+    width: 70%;
+    position: relative;
+    bottom:  100px;
+    left: 70px;
+    margin-top: -200px;
+}
+.E2{
+    margin-bottom: 100px;
+}
+.z3{
+    border-radius: 100px;
+    text-align: center; 
+}
+.z3 button{
+    background-color:rgb(239, 103, 148);
+    color:pink ;                                                  
+    padding: 50px;
+    border-radius: 500px;
+    margin-bottom: 200px;
+    font-size: xx-large;
+}
+.z3 button:hover{
+    background-color: pink;
+    color:rgb(223, 69, 121) ;
+}
+/*FIN TOKYO*/
+
+/*Pour les vidéos*/
+.Video{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -100px;
+   }        
+
+/*FIN VIDEO*/
